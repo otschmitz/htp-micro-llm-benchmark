@@ -1,0 +1,172 @@
+% =============================================================================
+% BIBLIOGRAPHIC REFERENCES - Micro-LLM with HTP
+% IEEE Format
+% =============================================================================
+
+% -----------------------------------------------------------------------------
+% TRANSFORMER AND LLM FUNDAMENTALS
+% -----------------------------------------------------------------------------
+
+@inproceedings{vaswani2017attention,
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  title     = {Attention Is All You Need},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  pages     = {5998--6008},
+  year      = {2017},
+  publisher = {Curran Associates, Inc.}
+}
+
+@article{radford2019language,
+  author  = {Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya},
+  title   = {Language Models are Unsupervised Multitask Learners},
+  journal = {OpenAI Blog},
+  year    = {2019},
+  url     = {https://openai.com/research/better-language-models}
+}
+
+@article{touvron2023llama,
+  author  = {Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\'e}e and Rozi{\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others},
+  title   = {{LLaMA}: Open and Efficient Foundation Language Models},
+  journal = {arXiv preprint arXiv:2302.13971},
+  year    = {2023}
+}
+
+% -----------------------------------------------------------------------------
+% SMALL LANGUAGE MODELS
+% -----------------------------------------------------------------------------
+
+@article{eldan2023tinystories,
+  author  = {Eldan, Ronen and Li, Yuanzhi},
+  title   = {{TinyStories}: How Small Can Language Models Be and Still Speak Coherent English?},
+  journal = {arXiv preprint arXiv:2305.07759},
+  year    = {2023}
+}
+
+@article{gunasekar2023textbooks,
+  author  = {Gunasekar, Suriya and Zhang, Yi and Anber, Jyoti and others},
+  title   = {Textbooks Are All You Need},
+  journal = {arXiv preprint arXiv:2306.11644},
+  year    = {2023}
+}
+
+@inproceedings{schick2021few,
+  author    = {Schick, Timo and Sch{\"u}tze, Hinrich},
+  title     = {It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics},
+  pages     = {2339--2352},
+  year      = {2021},
+  doi       = {10.18653/v1/2021.naacl-main.185}
+}
+
+% -----------------------------------------------------------------------------
+% HARMONIC TOKEN PROJECTION (HTP)
+% -----------------------------------------------------------------------------
+
+@article{schmitz2025htp,
+  author  = {Schmitz, T.},
+  title   = {Harmonic Token Projection: Deterministic Embeddings via Modular Arithmetic and Trigonometric Functions},
+  journal = {arXiv preprint arXiv:2511.20665},
+  year    = {2025}
+}
+
+% -----------------------------------------------------------------------------
+% TOKENIZATION
+% -----------------------------------------------------------------------------
+
+@inproceedings{sennrich2016bpe,
+  author    = {Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+  title     = {Neural Machine Translation of Rare Words with Subword Units},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics},
+  pages     = {1715--1725},
+  year      = {2016},
+  doi       = {10.18653/v1/P16-1162}
+}
+
+@article{karpathy2015char,
+  author  = {Karpathy, Andrej},
+  title   = {The Unreasonable Effectiveness of Recurrent Neural Networks},
+  journal = {Andrej Karpathy Blog},
+  year    = {2015},
+  url     = {http://karpathy.github.io/2015/05/21/rnn-effectiveness/}
+}
+
+% -----------------------------------------------------------------------------
+% EFFICIENT EMBEDDINGS
+% -----------------------------------------------------------------------------
+
+@inproceedings{press2017using,
+  author    = {Press, Ofir and Wolf, Lior},
+  title     = {Using the Output Embedding to Improve Language Models},
+  booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics},
+  pages     = {157--163},
+  year      = {2017},
+  doi       = {10.18653/v1/E17-2025}
+}
+
+@inproceedings{lan2020albert,
+  author    = {Lan, Zhenzhong and Chen, Mingda and Goodman, Sebastian and Gimpel, Kevin and Sharma, Piyush and Soricut, Radu},
+  title     = {{ALBERT}: A Lite {BERT} for Self-supervised Learning of Language Representations},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2020}
+}
+
+@inproceedings{svenstrup2017hash,
+  author    = {Svenstrup, Dan Tito and Hansen, Jonas and Winther, Ole},
+  title     = {Hash Embeddings for Efficient Word Representations},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  year      = {2017}
+}
+
+@inproceedings{pennington2014glove,
+  author    = {Pennington, Jeffrey and Socher, Richard and Manning, Christopher D.},
+  title     = {{GloVe}: Global Vectors for Word Representation},
+  booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages     = {1532--1543},
+  year      = {2014},
+  doi       = {10.3115/v1/D14-1162}
+}
+
+@article{bojanowski2017enriching,
+  author  = {Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and Mikolov, Tomas},
+  title   = {Enriching Word Vectors with Subword Information},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume  = {5},
+  pages   = {135--146},
+  year    = {2017},
+  doi     = {10.1162/tacl_a_00051}
+}
+
+% -----------------------------------------------------------------------------
+% MODERN TRANSFORMER COMPONENTS
+% -----------------------------------------------------------------------------
+
+@article{zhang2019root,
+  author  = {Zhang, Biao and Sennrich, Rico},
+  title   = {Root Mean Square Layer Normalization},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {32},
+  year    = {2019}
+}
+
+@article{su2024roformer,
+  author  = {Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng},
+  title   = {{RoFormer}: Enhanced Transformer with Rotary Position Embedding},
+  journal = {Neurocomputing},
+  volume  = {568},
+  pages   = {127063},
+  year    = {2024},
+  doi     = {10.1016/j.neucom.2023.127063}
+}
+
+@article{shazeer2020glu,
+  author  = {Shazeer, Noam},
+  title   = {{GLU} Variants Improve Transformer},
+  journal = {arXiv preprint arXiv:2002.05202},
+  year    = {2020}
+}
+
+% =============================================================================
+% END OF REFERENCES
+% =============================================================================
