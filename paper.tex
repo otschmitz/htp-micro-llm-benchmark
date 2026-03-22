@@ -296,7 +296,7 @@ Finally, our comparison is limited to a single model size and configuration. The
 
 Given the preliminary nature of this work, independent reproduction is especially important. We have aimed to make this as straightforward as possible.
 
-The experiment requires Python 3.10 or later and PyTorch. No GPU is needed. Each model variant consists of four files: the model definition, the embedding and tokenizer module, the training script, and an interactive chat interface. The two variants differ only in the model definition file; all other files are shared.
+All source code, training data, benchmark prompts, and this paper are available in a public repository \cite{htpbenchmark2025}. The experiment requires Python 3.10 or later and PyTorch. No GPU is needed. A single script (\texttt{run\_benchmark.py}) trains both models under identical conditions, generates responses for all 20 prompts, and prints a side-by-side comparison. The full benchmark runs in approximately 30 minutes on a modern CPU.
 
 Training uses AdamW with learning rate $3 \times 10^{-4}$, weight decay 0.1, batch size 32, sequence length 128, 15 epochs, and gradient clipping at norm 1.0. The training data is a single text file about Brazilian geography. The 20-prompt benchmark uses temperature 0.7, top-$k$ sampling with $k = 30$, and 50 maximum tokens.
 
